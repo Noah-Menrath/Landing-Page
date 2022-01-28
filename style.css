@@ -1,10 +1,11 @@
-.container {
+.top-container {
     display: flex;
     border: 1px solid red;
     flex: 1;
     margin-left: -8px;
     margin-top: -8px;
     margin-right: -8px;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -45,7 +46,7 @@ button {
 
 }
 
-img {
+.right-side {
     
     width: 750px;
     height: 225px;
@@ -96,7 +97,7 @@ ul {
     display: flex;
     flex-direction: column;
     border: 1px tan;
-    margin-bottom: 125px;
+    margin-bottom: 85px;
    
 }
 
@@ -141,4 +142,67 @@ ul {
 .right-side {
     display: flex;
     flex-direction: column;
+}
+
+
+
+/*information-panel */
+
+
+
+.information-panel {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid orange;
+    background-color: white;
+    flex: 1;
+    align-items: center;
+    margin-bottom: 75px;
+
+}
+
+.information-title {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.dish-images img {
+    display: flex;
+    flex: 1;
+    width: 250px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.featured-dishes-1,
+.featured-dishes-2,
+.featured-dishes-3,
+.featured-dishes-4 {
+    display: flex;
+    gap: 35px;
+    flex-direction: row;
+}
+
+.featured-dishes-text {
+    width: 250px;
+    border: 1px solid blueviolet;
+    margin-top: 5px;
+    
+}
+
+.featured-dishes-4 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.featured-dishes-text-4 {
+    width: 250px;
+    border: 1px solid blueviolet;
+    margin-top: -30px;
+    
 }
