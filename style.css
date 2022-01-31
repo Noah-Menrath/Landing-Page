@@ -6,6 +6,8 @@
     margin-top: -8px;
     margin-right: -8px;
     flex-wrap: wrap;
+    background-color: #1F2937;
+
 
 }
 
@@ -13,6 +15,7 @@
     display: flex;
     flex-flow: row wrap;
     background-color: #1F2937;
+    width: 100%
     
     
     
@@ -153,12 +156,15 @@ ul {
 
 .information-panel {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     border: 1px solid orange;
     background-color: white;
     flex: 1;
     align-items: center;
-    margin-bottom: -500px;
+    margin-left: -8px;
+    margin-right: -8px;
+   
+    
 
 }
 
@@ -169,6 +175,10 @@ ul {
     color: #1F2937;
     margin-top: 25px;
     margin-bottom: 25px;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid gray;
+    
 }
 
 .dish-images img {
@@ -177,6 +187,7 @@ ul {
     width: 250px;
     height: 175px;
     border-radius: 10px;
+    
 }
 
 .featured-dishes-1,
@@ -185,14 +196,14 @@ ul {
 .featured-dishes-4 {
     display: flex;
     gap: 35px;
-    flex-direction: row;
+    flex-direction: column; 
 }
 
 .featured-dishes-text {
     width: 250px;
     border: 1px solid blueviolet;
     margin-top: 5px;
-    
+    margin-top: -30px;
 }
 
 .featured-dishes-4 {
@@ -208,6 +219,14 @@ ul {
     
 }
 
+.featured-dishes {
+    display: flex;
+    width: 100%;
+    border: 1px solid yellow;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
 
 
 /* quote-panel */
@@ -216,12 +235,12 @@ ul {
 
 .quote-panel {
     display: flex;
-    flex-direction: row;
-    flex: 1;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     background-color: #E5E7EB;
-    
-    
+    border: 1px solid brown;
+    padding: 100px 400px 100px 400px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .quote {
@@ -233,4 +252,8 @@ ul {
 .signature {
     font-size: 22px;
     font-weight: 700;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 35px;
 }
