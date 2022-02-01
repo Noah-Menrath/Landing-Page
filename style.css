@@ -137,6 +137,10 @@ ul {
     flex-direction: column;
 }
 
+.menu-button {
+    color: white;
+}
+
 
 
 /*information-panel */
