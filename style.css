@@ -1,6 +1,5 @@
 .top-container {
     display: flex;
-    border: 1px solid red;
     flex: 1;
     margin-left: -8px;
     margin-top: -8px;
@@ -34,6 +33,8 @@
     width: 20%;
     margin-top: 8px;
     border-radius: 10px;
+    border: 1px solid #3882f6;
+    margin-top: -8px;
 }
 
 .links,
@@ -50,21 +51,13 @@
 
 }
 
-.right-side {
-    
-    width: 750px;
-    height: 225px;
-    
-    border: 1px solid black;
+.right-side img {
+    width: 450px;
+    height: 285px;
     display: flex;
     flex-direction: column;
-    margin-top: -250px;
-    margin-left: 860px;
-    margin-top: -225px;
-    
-
-   
-   
+    margin-top: -285px;
+    margin-left: 1160px;
 }
 
 a {
@@ -84,7 +77,6 @@ ul {
 .top-box {
     display: flex;
     justify-content: space-around;
-    border: 1px solid green;
     width: 100%
 }
 
@@ -100,7 +92,6 @@ ul {
 .welcome-panel {
     display: flex;
     flex-direction: column;
-    border: 1px tan;
     margin-bottom: 85px;
    
 }
@@ -113,23 +104,22 @@ ul {
     margin-right: 1150px;
     margin-top: 75px;
     flex: 1;
-    border: 1px solid yellow;
 
 }
 
 
 
 .welcome-title {
-    border: 1px solid purple;
     display: flex;
     flex-wrap: wrap;
+    width: 135%;
+    margin-bottom: 12px;
     
     
 }
 
 
 .welcome-message {
-    border: 1px solid teal;
     display: flex;
     
 
@@ -138,7 +128,6 @@ ul {
 .front-image {
     display: flex;
     justify-content: flex-end;
-    border: 1px solid pink;
     
 
 }
@@ -157,7 +146,6 @@ ul {
 .information-panel {
     display: flex;
     flex-flow: row wrap;
-    border: 1px solid orange;
     background-color: white;
     flex: 1;
     align-items: center;
@@ -177,7 +165,6 @@ ul {
     margin-bottom: 25px;
     width: 100%;
     justify-content: center;
-    border: 1px solid gray;
     
 }
 
@@ -201,7 +188,6 @@ ul {
 
 .featured-dishes-text {
     width: 250px;
-    border: 1px solid blueviolet;
     margin-top: 5px;
     margin-top: -30px;
 }
@@ -214,7 +200,6 @@ ul {
 
 .featured-dishes-text-4 {
     width: 250px;
-    border: 1px solid blueviolet;
     margin-top: -30px;
     
 }
@@ -222,7 +207,6 @@ ul {
 .featured-dishes {
     display: flex;
     width: 100%;
-    border: 1px solid yellow;
     justify-content: center;
     gap: 50px;
     margin-bottom: 100px;
@@ -237,7 +221,6 @@ ul {
     display: flex;
     flex-flow: row wrap;
     background-color: #E5E7EB;
-    border: 1px solid brown;
     padding: 100px 400px 100px 400px;
     margin-left: -8px;
     margin-right: -8px;
@@ -267,7 +250,6 @@ ul {
 .contact-panel {
     display: flex;
     flex-flow: row wrap;
-    border: 1px solid blue;
     margin-left: -8px;
     margin-right: -8px;
     justify-content: center;
@@ -283,7 +265,6 @@ ul {
     margin-bottom: 100px;
     border-radius: 10px;
     width: 40%;
-    border: 1px solid black;
 }
 
 .contact-title,
@@ -295,13 +276,11 @@ ul {
 .contact-title {
     font-size: 18px;
     font-weight: 700;
-    border: 1px solid brown;
     width: 75%;
 }
 
 .contact-description {
     font-weight: 400;
-    border: 1px solid red;
     width: 75%;
 }
 
@@ -338,11 +317,17 @@ ul {
     justify-content: center;
     align-items: center;
     margin-left: -8px;
-    margin-right: -9px;
+    margin-right: -8px;
+    margin-bottom: -8px;
 }
 
 .footer {
     padding: 25px;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
+    
+}
+
+.footer ul {
+    gap: 50px;
 }
